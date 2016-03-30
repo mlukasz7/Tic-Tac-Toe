@@ -1,0 +1,189 @@
+body
+{
+	background-color: #222222;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	margin: 0 !important;
+}
+
+#conteiner
+{
+	width: 100%;
+}
+
+#gameboard
+{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header
+{
+	text-align: center;
+	margin-top: 40px;
+	font-weight: 700;
+	font-size: 72px;
+}
+
+#game
+{
+	width: 100%;
+	margin-top: 75px;
+	margin-bottom: 100px;
+}
+
+#blocks
+{
+	width: 500px;
+	height: 300px;
+	float: left;
+}
+
+#plansza
+{
+	width: 300px;
+	margin: 0 100px;
+}
+
+.board
+{
+	width: 100px;
+	height: 100px;
+	float: left;
+	cursor: pointer;
+}
+
+#rightSite
+{
+	width: 500px;
+	height: 300px;
+	float: left;
+}
+
+#o0
+{
+	margin-right: 20px;
+}
+
+.kolko
+{
+	color: #3D9AE8;
+}
+
+
+.krzyzyk
+{
+	color: #FF2F23;
+}
+
+footer
+{
+	width: 100%;
+	background-color: #000;
+}
+
+#about
+{
+	width: 1000px;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+}
+
+#ktoteraz
+{
+	min-height: 193px;
+}
+
+#who
+{
+	font-weight: 700;
+}
+
+
+.win
+{
+	text-align: center;
+	font-size: 35px;
+}
+
+.ikonaL
+{
+	margin-top: 80px;
+	margin-left: 290px;
+	text-align: center;
+}
+
+.ikonaR
+{
+	margin-top: 80px;
+	margin-right: 290px;
+	text-align: center;	
+}
+
+a
+{
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+}
+
+.ikonaL:hover
+{
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	right bottom,
+	color-stop(0, rgb(61, 155, 232)),
+	color-stop(1, rgb(255, 46, 23))
+	);
+	background-image: -o-linear-gradient(right bottom, rgb(61, 155, 232) 0%, rgb(255, 46, 23) 100%);
+	background-image: -moz-linear-gradient(right bottom, rgb(61, 155, 232) 0%, rgb(255, 46, 23) 100%);
+	background-image: -webkit-linear-gradient(right bottom, rgb(61, 155, 232) 0%, rgb(255, 46, 23) 100%);
+	background-image: -ms-linear-gradient(right bottom, rgb(61, 155, 232) 0%, rgb(255, 46, 23) 100%);
+	background-image: linear-gradient(to right bottom, rgb(61, 155, 232) 0%, rgb(255, 46, 23) 100%);
+}
+
+.ikonaR:hover 
+{
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	right bottom,
+	color-stop(0, rgb(61, 155, 232)),
+	color-stop(1, rgb(255, 46, 23))
+	);
+	background-image: -o-linear-gradient(right bottom, rgb(61, 155, 232) 0%, rgb(255, 46, 23) 100%);
+	background-image: -moz-linear-gradient(right bottom, rgb(61, 155, 232) 0%, rgb(255, 46, 23) 100%);
+	background-image: -webkit-linear-gradient(right bottom, rgb(61, 155, 232) 0%, rgb(255, 46, 23) 100%);
+	background-image: -ms-linear-gradient(right bottom, rgb(61, 155, 232) 0%, rgb(255, 46, 23) 100%);
+	background-image: linear-gradient(to right bottom, rgb(61, 155, 232) 0%, rgb(255, 46, 23) 100%);
+}
+
+.back
+{
+	float: left;
+	width: 50%;
+	margin-top: 80px;
+	text-align: center;
+}
+
+.back:hover
+{
+	color: #3D9AE8;
+}
+
+.reset
+{
+	margin-top: 80px;
+	width: 100%;
+	text-align: right;
+	float: left;
+}
+
+.reset:hover
+{
+	color: #FF2F23;
+}
