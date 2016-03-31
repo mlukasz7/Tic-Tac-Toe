@@ -1,2 +1,3 @@
 # Tic-Tac-Toe
-The Tic-Tac-Toe Game
+![alt tag](https://github.com/mlukasz7/Tic-Tac-Toe/blob/master/ttt.gif?raw=true)
+
